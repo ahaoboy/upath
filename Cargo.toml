@@ -1,0 +1,20 @@
+[package]
+name = "upath"
+version = "0.1.0"
+edition = "2024"
+description = "Generate an available (non-colliding) file path by appending/incrementing a numeric suffix."
+readme = "README.md"
+keywords = ["path", "filename", "duplicate", "unique", "rename"]
+categories = ["filesystem"]
+license = "MIT"
+repository = "https://github.com/ahaoboy/upath"
+homepage = "https://github.com/ahaoboy/upath"
+authors = ["ahaoboy"]
+
+[lib]
+name = "upath"
+path = "src/lib.rs"
+
+[[bin]]
+name = "upath"
+path = "src/main.rs"
